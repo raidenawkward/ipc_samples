@@ -1,0 +1,7 @@
+1. for sending preserved signals, use signal()
+2. for sending customed signals, use sigaction()
+3. customed signals should be presented as 'SIGUSER1 + n' or 'SIGUSER2 + n'
+4. there will be an error 141 exit if the customed signal which was sent to server was not handled by sigaction() in server code
+
+man pages:
+man signal, man 2 kill, man 7 signal
