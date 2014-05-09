@@ -1,0 +1,13 @@
+server:
+1. socket
+2. config addr
+3. bind
+4. listen
+5. accept
+6. read/write
+
+client:
+1. socket
+2. config addr
+3. connect
+4. read/write
