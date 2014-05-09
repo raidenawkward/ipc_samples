@@ -1,0 +1,8 @@
+1. key words:
+#include<sys/msg.h>
+int msgctl(int msgid , int cmd, struct msqid_ds *buf);
+int msgget(key_t key , int msgflg);
+int msgrcv(int msqid , void *msg_ptr , size_t msg_sz , long int msgtype , int msgflg);
+int msgsnd(int msqid , const void *msg_ptr , size_t msg_sz , int msgflg);
+
+
