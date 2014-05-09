@@ -1,0 +1,7 @@
+mmap:
+1. map file to memory
+2. map memory to memory
+
+by 1, it supports communicate between different processes by file
+discripter;
+by 2, it supports communicate between parent and child processes;
