@@ -1,0 +1,14 @@
+This project is all of samples with ways for IPC
+
+I made it for a quick understanding about these ways (it's
+easy for me to forget about them).
+
+In each sub-folder, a NOTE file is used for awaken me the
+key words to use each IPC method. And this NOTE document
+also contains the key entrances for man page.
+
+And I designed these examples under some certain circumstance;
+they indeed resolved some problems.
+
+
+by tome.huang@samsung.com on 20140528
