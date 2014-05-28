@@ -1,0 +1,9 @@
+1. shmget - shmid
+2. shmat - share the memory / get the shared memory
+3. man pages:
+shmget, shmat, shmdt, shmctl
+4. for a share key, either way is possible:
+	4.1. key_t key = (key_t)SHARE_KEY(1234);
+	4.2. key_t key = ftok(SHARE_PATH(some path that exists), 0);
+5. for this demo, should be run as root (or there is a permission denied)
+
