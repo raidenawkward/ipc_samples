@@ -1,0 +1,7 @@
+fifo: named pipe
+
+man page:
+man 3 mkfifo
+
+use file to transform data, then read/write
+files.

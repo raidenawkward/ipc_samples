@@ -43,6 +43,7 @@ void pos_report(const struct pos* p)
 {
 	if (!p)
 		return;
+
 	printf("current pos: (%d,%d)\n", p->x, p->y);
 }
 
